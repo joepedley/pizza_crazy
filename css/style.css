@@ -1,0 +1,235 @@
+html{
+	width: auto;
+	height: auto;
+	padding: 30px;
+	 /* fallback */
+  background-color: #d71110;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d71110), to(#7f080a));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #d71110, #7f080a);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #d71110, #7f080a);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #d71110, #7f080a);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #d71110, #7f080a);
+}
+
+
+#wrapper{
+
+}
+
+/*HEADER*/
+
+header{
+	width: 940px;
+	padding: 20px 0 0 10px;
+	overflow: auto;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	background: #1a7518;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+.logo{
+	width: 220px;
+	height: 190px;
+	float: left;
+}
+
+.logo img{
+	margin-top: 27.5px;
+}
+
+.address{
+	width: 220px;
+	height: 113px;
+	background: white;
+	float: left;
+	margin: 0 0 0 20px;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+.hours{
+	width: 220px;
+	height: 113px;
+	background: white;
+	float: left;
+	margin: 0 0 0 20px;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+.social{
+	width: 220px;
+	height: 113px;
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+.social a{
+	margin-right: 16px;
+}
+
+.social a:last-child{
+	margin-right: 0px;
+}
+
+nav{
+	width: 700px;
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li{
+	float: left;
+	margin-left: 25px;
+	background: #d71110;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding: 15px 5px 5px 5px;
+	margin-top: 24px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+nav ul li a{
+	font-size: 49px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+
+}
+
+nav ul li .glow{
+	border-radius: 10px;
+	width: auto;
+	height: 4px;
+	background: #7f080a;
+	box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);
+}
+
+nav ul li .active{
+	border-radius: 10px;
+	width: auto;
+	height: 4px;
+	background: green;
+	box-shadow: 0px 0px 4px rgba(0, 204, 0, 0.75);
+}
+
+#main{
+	width: 930px;
+	height: 400px;
+	padding: 15px;
+	margin: 0 auto;
+	background: #1a7518;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8);
+}
+
+/*DEALS STUFF*/
+
+.deals{
+	width: 700px;
+	height: 319px;
+	background: white;
+	padding-top: 36px;
+	float: left;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666,  
+	  inset 0 -1px 1px rgba(0,0,0,0.5), 
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+.dealImg{
+	width: 280px;
+	height: 280px;
+	background: red;
+	margin: 0 20px 0 20px;
+	float: left;
+}
+
+.dealTitle{
+	float: left;
+}
+
+.dealText{
+	float: left;
+	width: 330px;
+}
+
+/*SIDEBAR*/
+
+.side{
+	width: 198px;
+	height: 315px;
+	background: white;
+	float: left;
+	margin-left: 10px;
+	padding: 20px 11px;
+	border-radius: 15px;
+}
+
+.location{
+	width: 200px;
+	height: 129px;
+	background: #d71110;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+.orderBtn{
+	width: 200px;
+	height: 50px;
+	margin-top: 20px;
+	background: #d71110;
+	border-radius: 15px;
+	box-shadow: 
+	  0 1px 2px #666, 
+	  0 -1px 1px #666, 
+	  inset 0 -1px 1px rgba(0,0,0,0.5),  
+	  inset 0 1px 1px rgba(255,255,255,0.8); /*top internal highlight*/
+}
+
+/*FOOTER*/
+
+.copy{
+	padding-top: 20px;
+	text-align: center;
+}

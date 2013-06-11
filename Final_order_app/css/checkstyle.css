@@ -1,0 +1,105 @@
+html{
+	background:url(../img/background.jpg);
+}
+
+body{
+
+	width:940px;
+	padding:10px;
+	margin:10px auto;
+	height:730px;
+}
+
+article{
+	background:url(../img/splash_body.png);
+	margin:0 auto;
+	height:670px;
+	width:879px;
+	padding:30px;
+}
+
+header{
+	margin-bottom:30px;
+}
+
+h1{
+	font-family: 'PermanentMarkerRegular';
+	font-size:30px;
+	margin:55px 60px 0 0;
+	float:right;
+}
+
+h2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:25px;
+	text-align:center;
+}
+
+#order_pic{
+	float:left;
+	margin:10px 0 0 50px;
+}
+
+#des{
+	width:400px;
+	margin:125px 50px 0 0;
+	float:right;
+	font-size:30px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+h3{
+	font-family: 'PermanentMarkerRegular';
+	font-size:30px;
+	text-align:center;
+	margin-top:375px;
+}
+
+#cart_top{
+	position:absolute;
+	z-index:2;
+	margin-top:100px;
+}
+
+#cart_pizza{
+	position:absolute;
+	z-index:1;
+	margin-top:100px;
+}
+
+#cart_drink{
+	position:absolute;
+	z-index:0;
+	margin-top:20px;
+}
+
+#submit{
+	margin:0 auto;
+	border-radius:15px;
+	background:url(../img/button.png);
+	width:80px;
+	padding:10px;
+	height:20px;
+	font-family: 'PermanentMarkerRegular';
+	color:white;
+	font-size:20px;
+	text-align:center;
+	margin-top:20px;
+}
+
+a:link {text-decoration:none;color:white;}
+a:visited {text-decoration:none;color:#172e18;}
+a:hover {text-decoration:none;color:#1f4822;}
+a:active {text-decoration:none;color:white;}
+
+@font-face {
+    font-family: 'PermanentMarkerRegular';
+    src: url('../fonts/PermanentMarker-webfont.eot');
+    src: url('../fonts/PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PermanentMarker-webfont.woff') format('woff'),
+         url('../fonts/PermanentMarker-webfont.ttf') format('truetype'),
+         url('../fonts/PermanentMarker-webfont.svg#PermanentMarkerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
